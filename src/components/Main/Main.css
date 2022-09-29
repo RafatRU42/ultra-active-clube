@@ -1,0 +1,17 @@
+.main{
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    
+}
+.activity{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    background-color: antiquewhite;
+    border-radius: 10px;
+}
+.count{
+    background-color: gold;
+}
+.active{
+    margin: 20px;
+}

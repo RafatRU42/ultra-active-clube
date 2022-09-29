@@ -24,7 +24,12 @@ const Main = () => {
                 }
                 </div>
 
-                <h2>How does react work?</h2>
+                <h2>1.How does react work?</h2>
+                <h3 style={{color: 'blue'}}>Ans.</h3>
+                <h2>2. What is the difference between props and state?</h2>
+                <h3 style={{color: 'blue'}}>Ans.</h3>
+                <h2>3. Why we use useEffect without load data?</h2>
+                <h3 style={{color: 'blue'}}>Ans.</h3>
             </div>
             <div className="count">
                 <Count></Count>

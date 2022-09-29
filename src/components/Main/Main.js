@@ -23,6 +23,8 @@ const Main = () => {
                     activity.map(activity => <Activity name = {activity}></Activity>)
                 }
                 </div>
+
+                <h2>How does react work?</h2>
             </div>
             <div className="count">
                 <Count></Count>

@@ -49,7 +49,7 @@
 .info{
     border: 1px solid gainsboro;
     margin-right: 10px;
-    background-color: darkgoldenrod;
+    background-color: darkgray;
     border-radius: 10px;
 }
 
@@ -95,3 +95,12 @@
     margin-bottom: 10px;
 } */
 
+
+.complete{
+    background-color: seagreen;
+    margin: 70px;
+    padding: 5px;
+    text-align: center;
+    color: aliceblue;
+    border-radius: 5px;
+}

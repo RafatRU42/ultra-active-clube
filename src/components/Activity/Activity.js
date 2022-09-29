@@ -3,6 +3,7 @@ import './Actitity.css'
 
 const Activity = (props) => {
      const {name, image, time, id, paragraph} = props.name;
+     const {evenHandeler} = props
 
     return (
         <div className='active'>
@@ -10,7 +11,7 @@ const Activity = (props) => {
            <h3>Name: {name}</h3>
            <p>{paragraph}</p>
            <p className='time'>Time: {time}</p>
-           <button className='button'><h3>Add To List</h3></button>
+           <button onClick={()=>evenHandeler(props.activity)} className='button'><h3>Add To List</h3></button>
         </div>
     );
 };

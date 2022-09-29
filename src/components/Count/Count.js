@@ -2,6 +2,7 @@ import React from 'react';
 import './Count.css'
 
 const Count = (props) => {
+    console.log(props.count.time)
     return (
         <div className='count'>
             
@@ -45,6 +46,8 @@ const Count = (props) => {
                 <p>300 Minutes</p>
                 </div>
             </div>
+
+                <button className='complete'><h3>Activity Completed</h3></button>
         </div>
     );
 };

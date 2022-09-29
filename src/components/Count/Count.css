@@ -64,3 +64,34 @@
 .butto button:hover{
     background-color: aqua;
 }
+.butto{
+    border: 2px solid beige;
+    margin-right: 15px;
+    border-radius: 5px;
+}
+
+.e-time{
+    border: 1px solid gainsboro;
+    padding: 5px;
+    margin-right: 15px;
+    background-color: antiquewhite;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    
+}
+.b-time{
+    border: 1px solid gainsboro;
+    padding: 5px;
+    margin-right: 15px;
+    background-color: antiquewhite;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+/* .exercide-details{
+    margin-top: 10px;
+    margin-bottom: 10px;
+} */
+

@@ -33,6 +33,18 @@ const Count = (props) => {
 
                 </div>
             </div>
+
+            <div className="exercide-details">
+                <h2>Exercise Details</h2>
+                <div className="e-time">
+                <h3>Exercise Time</h3>
+                <p>200 Minutes</p>
+                </div>
+                <div className="b-time">
+                <h3>Break Time</h3>
+                <p>300 Minutes</p>
+                </div>
+            </div>
         </div>
     );
 };

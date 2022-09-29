@@ -27,3 +27,8 @@
 .time{
     margin-bottom: 40px;
 }
+
+
+button:hover{
+    background-color: cadetblue;
+}

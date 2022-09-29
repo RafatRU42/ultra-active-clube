@@ -1,0 +1,66 @@
+.count img{
+    height: 200px;
+    width: 300px;
+    text-align: start;
+    padding-left: 5px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+.count{
+    text-align: start;
+    padding-left: 15px;
+}
+.adderss{
+    margin-top: 0px;
+}
+.name{
+    margin-bottom: 5px;
+}
+.info{
+    display: flex;
+    
+}
+.info h2{
+    margin-left: 20px;
+}
+.para{
+    margin-top: 0;
+    margin-left: 40px;
+}
+.weight{
+    margin-bottom: 5px;
+}
+.height{
+    margin-bottom: 5px;
+}
+.hei{
+    margin-left: 40px;
+    margin-top: 0;
+}
+
+.age{
+    margin-bottom: 5px;
+}
+.a{
+    margin-left: 30px;
+    margin-top: 0;
+}
+.info{
+    border: 1px solid gainsboro;
+    margin-right: 10px;
+    background-color: darkgoldenrod;
+    border-radius: 10px;
+}
+
+.butto button{
+    margin: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: floralwhite;
+    border: none;
+    border-radius: 2px;
+}
+.butto button:hover{
+    background-color: aqua;
+}

@@ -32,7 +32,7 @@ const Main = () => {
                 <h3 style={{color: 'blue'}}>Ans.</h3>
             </div>
             <div className="count">
-                <Count></Count>
+                <Count image = {'https://images.pexels.com/photos/997489/pexels-photo-997489.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load'}></Count>
             </div>
         </div>
     );

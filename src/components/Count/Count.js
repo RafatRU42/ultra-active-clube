@@ -2,7 +2,30 @@ import React from 'react';
 import './Count.css'
 
 const Count = (props) => {
-    console.log(props.count.time)
+    // console.log(props.time)
+    // let time = 0;
+    // for(time of props.cart){
+    //     time = time + time.time
+    // }
+
+
+    const fun1 = () => {
+        // const value = 10;
+        // return value;
+        console.log('connected')
+
+        const one1 = document.getElementById('one').innerText = 10
+    }
+
+    const fun2 =() => {
+        document.getElementById('one').innerText = 20
+    }
+
+    const fun3 = () => {
+        document.getElementById('one').innerText = 30
+    }
+    
+    
     return (
         <div className='count'>
             
@@ -27,9 +50,10 @@ const Count = (props) => {
             <div className="break">
                 <h2>Add a break</h2>
                 <div className="butto">
-                    <button className="button-1">10s</button>
-                    <button className="button-2">20s</button>
-                    <button className="button-3">30s</button>
+                    <button onClick={()=>fun1()} className="button-1">10s</button>
+                    <button onClick={() =>fun2()} className="button-2">20s</button>
+
+                    <button onClick={() => fun3()} className="button-3">30s</button>
                     <button className="button-4">40s</button>
 
                 </div>
@@ -39,11 +63,11 @@ const Count = (props) => {
                 <h2>Exercise Details</h2>
                 <div className="e-time">
                 <h3>Exercise Time</h3>
-                <p>200 Minutes</p>
+                <p>{props.count} Minute</p>
                 </div>
                 <div className="b-time">
                 <h3>Break Time</h3>
-                <p>300 Minutes</p>
+                <p id='one'></p>
                 </div>
             </div>
 

@@ -104,3 +104,10 @@
     color: aliceblue;
     border-radius: 5px;
 }
+
+
+/* @media screen and (max-width: 768px) {
+    .count{
+        width: 1000px;
+    }
+} */

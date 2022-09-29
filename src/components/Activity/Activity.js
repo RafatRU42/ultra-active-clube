@@ -2,7 +2,8 @@ import React from 'react';
 import './Actitity.css'
 
 const Activity = (props) => {
-     const {name, image, time, id, paragraph} = props.name;
+    // console.log(props.name)
+     const {name, image, time, paragraph} = props.name;
      const {evenHandeler} = props
 
     return (
@@ -11,7 +12,7 @@ const Activity = (props) => {
            <h3>Name: {name}</h3>
            <p>{paragraph}</p>
            <p className='time'>Time: {time}</p>
-           <button onClick={()=>evenHandeler(props.activity)} className='button'><h3>Add To List</h3></button>
+           <button onClick={()=>evenHandeler(props.name)} className='button'><h3>Add To List</h3></button>
         </div>
     );
 };

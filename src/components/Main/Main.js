@@ -18,9 +18,9 @@ const Main = () => {
     },[])
 
    const addToList = (activity) =>{
-    console.log(activity);
+    console.log(activity.time);
     const newCount = [...count, activity];
-    setCount(newCount);
+    setCount(activity.time);
    }
 
     return (
@@ -29,7 +29,7 @@ const Main = () => {
                 <h1>Select Today's Time Duration of Studies {count.length}</h1>
                 <div className='activity'>
                 {
-                    activity.map(activity => <Activity name = {activity}  evenHandeler = {addToList}></Activity>)
+                    activity.map(activity => <Activity name = {activity} key = {activity.id}  evenHandeler = {addToList}></Activity>)
                 }
                 </div>
 

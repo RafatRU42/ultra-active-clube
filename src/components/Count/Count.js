@@ -24,6 +24,10 @@ const Count = (props) => {
     const fun3 = () => {
         document.getElementById('one').innerText = 30
     }
+
+    const fun4 = () => {
+        document.getElementById('one').innerText = 40
+    }
     
     
     return (
@@ -54,7 +58,7 @@ const Count = (props) => {
                     <button onClick={() =>fun2()} className="button-2">20s</button>
 
                     <button onClick={() => fun3()} className="button-3">30s</button>
-                    <button className="button-4">40s</button>
+                    <button onClick={() => fun4()} className="button-4">40s</button>
 
                 </div>
             </div>
@@ -67,7 +71,7 @@ const Count = (props) => {
                 </div>
                 <div className="b-time">
                 <h3>Break Time</h3>
-                <p id='one'></p>
+                <p id='one'> </p>
                 </div>
             </div>
 

@@ -26,7 +26,7 @@ const Main = () => {
     return (
         <div className='main'>
             <div className='active'>
-                <h1>Select Today's Time Duration of Studies {count.length}</h1>
+                <h1>Select Today's Time Duration of Studies</h1>
                 <div className='activity'>
                 {
                     activity.map(activity => <Activity name = {activity} key = {activity.id}  evenHandeler = {addToList}></Activity>)

@@ -5,13 +5,15 @@
     border-radius: 10px;
     text-align: left;
     position: relative;
+    
 }
 
 .active img{
-    height: 150px;
+    height: 140px;
     width: 100%;
 }
 .button{
+    
     position: absolute;
     width: 100%;
     bottom: 0;
@@ -21,4 +23,7 @@
     background-color: aqua;
     border-bottom-left-radius: 10px;
 
+}
+.time{
+    margin-bottom: 40px;
 }

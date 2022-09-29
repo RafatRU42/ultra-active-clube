@@ -7,9 +7,9 @@ const Activity = (props) => {
     return (
         <div className='active'>
            <img src={image} alt="" />
-           <p>Name: {name}</p>
+           <h3>Name: {name}</h3>
            <p>{paragraph}</p>
-           <p>Time: {time}</p>
+           <p className='time'>Time: {time}</p>
            <button className='button'><h3>Add To List</h3></button>
         </div>
     );
